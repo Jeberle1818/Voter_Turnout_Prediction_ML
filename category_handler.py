@@ -4,7 +4,7 @@ import re
 # to get a list of strings ["", ""...""]
 
 # some interesting things to note. there are a large number
-# of fields which are labeled allocation flag, this means that
+# of fields which are labeled allocation flag, which means that
 # the data was missing and was inferred from the dataset using one
 # of several allocation methods (i.e. closest match on other parameters)
 # with the flag signaling which allocation method
@@ -12,7 +12,7 @@ import re
 #
 # also note that line number appears in multiple attributes,
 # and remains a mystery as to whether it belongs in categorical
-# or continuous, thus i have put them in unsure for now
+# or continuous, so i have put them in unsure for now
 #
 # also note that there is a short list of irrelevant,
 # which i have made the choice of doing so because
